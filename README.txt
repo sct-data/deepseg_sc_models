@@ -15,6 +15,9 @@ This dataset was created on 10 Dec 2017.
 Changelog
 ===============================================================================
 
+2020-12-04:
+- Added dataset.pkl.
+
 2018-06-10 (included in v3.2.1):
 - Added 3D models.
 
