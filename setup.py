@@ -8,13 +8,17 @@ here = pathlib.Path(__file__).parent.resolve()
 import site, sys; site.ENABLE_USER_SITE = True
 
 setup(
-  name='spinalcordtoolbox-data-<dataset>',
+  name='spinalcordtoolbox-data-deepseg_sc_models',
   description='Part of https://github.com/neuropoly/spinalcordtoolbox',
-  long_description=(here / 'README.md').read_text(encoding='utf-8'),
-  long_description_content_type='text/markdown',
+  long_description=(here / 'README.txt').read_text(encoding='utf-8'),
+  long_description_content_type='text/plain',
   author='Neuropoly',
   author_email='neuropoly@googlegroups.com',
-  url='https://github.com/sct-data/<dataset>',
+  url='https://spinalcordtoolbox.com/',
+  project_urls={
+      'Source': 'https://github.com/sct-data/deepseg_sc_models',
+      #'Documentation': '',
+  },
   #license='CC-BY-NC', ??
   #license_files=[ ... ] # TODO?
 
